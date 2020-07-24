@@ -194,7 +194,7 @@ public:
 		{
 			if (m_cardUserCount > m_deckamount * 52 - 11)//m_deckamount * 52 - 15 * m_playeramount) //15 max amount you could need per round: 6 twos and 9 aces (multiple decks)
 			{
-				std::cout << "Not enough cards ! Reshuffling";
+				std::cout << "Not enough cards" << '\n';
 				cardFunctions.m_deck = cardFunctions.cardDist(m_deckamount);
 				m_cardUserCount = 0;
 			}

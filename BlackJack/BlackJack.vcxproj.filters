@@ -13,10 +13,39 @@
       <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
       <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
     </Filter>
+    <Filter Include="Players">
+      <UniqueIdentifier>{c1e446c2-60ee-4a23-9336-45ff24088130}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Cards">
+      <UniqueIdentifier>{eeb8ff5f-b610-4b97-ba4d-429767e514b6}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="BlackJack.cpp">
       <Filter>Quelldateien</Filter>
     </ClCompile>
+    <ClCompile Include="Player.cpp">
+      <Filter>Players</Filter>
+    </ClCompile>
+    <ClCompile Include="User.cpp">
+      <Filter>Players</Filter>
+    </ClCompile>
+    <ClCompile Include="Dealer.cpp">
+      <Filter>Players</Filter>
+    </ClCompile>
+    <ClCompile Include="cardLogic.cpp">
+      <Filter>Cards</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="types.h">
+      <Filter>Headerdateien</Filter>
+    </ClInclude>
+    <ClInclude Include="Player.h">
+      <Filter>Players</Filter>
+    </ClInclude>
+    <ClInclude Include="cardLogic.h">
+      <Filter>Cards</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>
